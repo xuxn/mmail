@@ -1,0 +1,197 @@
+.nav{
+    background: #eee;
+    height: 30px;
+    line-height: 30px;   
+}
+/* 用户部分 */
+.nav .user{
+    float: left;
+}
+.nav .user.login{
+    display: none;
+}
+.nav .user .link{
+    margin-right: 5px;
+}
+/* 导航链接部分 */
+.nav .nav-list{
+    float: right;
+}
+.nav .nav-list .nav-item{
+    display: inline-block;
+    margin-left: 5px;
+}/*
+* @Author: Rosen
+* @Date:   2017-05-18 19:30:20
+* @Last Modified by:   Rosen
+* @Last Modified time: 2017-05-23 20:03:49
+*/
+/* 通用头部导航 */
+.header .logo{
+    position: absolute;
+    left: 60px;
+    top: 34px;
+    display: block;
+    font-size: 36px;
+    color: #c60023;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header .search-con{
+    padding: 40px 0 30px 250px;
+}
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #c60023;
+    outline: none;
+}
+.header .search-con .search-btn{
+    position: absolute; 
+}
+
+/* 面包屑导航 */
+.crumb{
+    margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #c60023;
+}/*
+* @Author: Rosen
+* @Date:   2017-05-26 18:19:21
+* @Last Modified by:   Rosen
+* @Last Modified time: 2017-05-26 19:12:42
+*/
+/* banner */
+.banner{
+    position: relative; 
+    overflow: auto; 
+}
+.banner li { 
+    list-style: none; 
+}
+.banner ul li { 
+    float: left; 
+}
+/* 引导的小圆点 */
+.banner .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
+}
+.banner .dots li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 4px;
+    text-indent: -999em;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    opacity: .4;
+    -webkit-transition: background .5s, opacity .5s;
+    -moz-transition: background .5s, opacity .5s;
+    transition: background .5s, opacity .5s;
+}
+.banner .dots li.active {
+    background: #fff;
+    opacity: 1;
+}/*
+* @Author: mmall
+* @Date:   2017-05-27 18:04:22
+* @Last Modified by:   Rosen
+* @Last Modified time: 2017-05-29 16:44:22
+*/
+/* 排序按钮 */
+.sort-con{
+    overflow: auto;
+}
+.sort-con .sort-item{
+    float: left;
+    display: inline-block;
+    position: relative;
+    padding: 0 8px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #ccc;
+    margin-right: -1px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+}
+.sort-con .sort-item.active{
+    background: #c60023;
+    border: 1px solid #c60023;
+    color: #fff;
+}
+.sort-con .sort-item .fa-sort-desc{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.sort-con .sort-item.asc .fa-sort-desc{
+    opacity: .6;
+}
+.sort-con .sort-item.desc .fa-sort-asc{
+    opacity: .6;
+}
+
+/* 列表 */
+.p-list-con{
+    margin-top: 15px;
+    margin-right: -20px;
+    overflow: hidden;
+}
+.p-list-con .p-item{
+    position: relative;
+    width: 180px;
+    float: left;
+    padding: 10px;
+    margin: 0 20px 20px 0;
+    background: #fff;
+}
+.p-list-con .p-item .p-img-con{
+    width: 180px;
+    height: 200px;
+}
+.p-list-con .p-item .p-img-con .p-img{
+    width: 100%;
+    height: 100%;
+}
+.p-list-con .p-item .p-price-con{
+    height: 30px;
+    line-height: 30px;
+}
+.p-list-con .p-item .p-price-con .p-price{
+    font-size: 16px;
+    color: #e7380d;
+}
+.p-list-con .p-item .p-name-con{
+    height: 40px;
+    overflow: hidden;
+}
+.p-list-con .p-item .p-name-con .p-name{
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #666;
+    text-decoration: none;
+}
+/* 错误信息 */
+.err-tip{
+    height: 60px;
+    line-height: 60px;
+    color: #f60;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    background: #eee;
+}
